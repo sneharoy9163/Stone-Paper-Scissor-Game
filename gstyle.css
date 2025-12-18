@@ -56,18 +56,20 @@ img{
 }
 #new {
     background: linear-gradient(145deg, #ffd700, #ffa500); 
-    color: white;              /* Text color */
-    border: none;              /* Remove default border */
-    padding: 10px 20px;        /* Space inside the button */
-    font-size: 16px;           /* Text size */
-    border-radius: 5px;        /* Rounded corners */
-    cursor: pointer;           /* Pointer on hover */
+    color: white;              
+    border: none;  
+    margin-top: 4rem;
+    padding: 10px 20px;       
+    font-size: 16px;           
+    border-radius: 5px;        
+    cursor: pointer;           
     transition: background-color 0.3s ease;
 }
 
 #btn{
     color: white;             
-    border: none;              
+    border: none;  
+    margin-top: 4rem;
     padding: 10px 20px;        
     font-size: 16px;           
     transition: background-color 0.3s ease;

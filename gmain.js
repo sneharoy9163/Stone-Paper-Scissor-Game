@@ -11,6 +11,12 @@ const gamechoice= ()=>{
     const idx= Math.floor(Math.random()*3);
     return option[idx];
 };
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelector("button").addEventListener("click", () => {
+        document.getElementById("user").textContent = 0;
+        document.getElementById("com").textContent = 0;
+    });
+});
 const draw= ()=>{
     console.log("draw match");
     msg.innerText= "match draw!";

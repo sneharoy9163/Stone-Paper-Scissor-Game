@@ -54,8 +54,23 @@ img{
     border-radius: 2rem;
     padding: 2rem;
 }
-button{
-    margin-top: 4rem;
+#new {
+    background: linear-gradient(145deg, #ffd700, #ffa500); 
+    color: white;              /* Text color */
+    border: none;              /* Remove default border */
+    padding: 10px 20px;        /* Space inside the button */
+    font-size: 16px;           /* Text size */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;           /* Pointer on hover */
+    transition: background-color 0.3s ease;
+}
+
+#btn{
+    color: white;             
+    border: none;              
+    padding: 10px 20px;        
+    font-size: 16px;           
+    transition: background-color 0.3s ease;
 }
 .dark{
     background-color: black;

@@ -1,6 +1,6 @@
 alert(
     "Welcome to gamemania!\n" +
-    "*GAME RULES*" +
+    "*GAME RULES*\n" +
     "• Stone breaks Scissor\n" +
     "• Paper cover Stone\n" +
     "• Scissor cut Paper"

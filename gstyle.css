@@ -84,7 +84,7 @@ img{
     color: black;
 }
 /*MOBILE RESPONSIVE STYLES*/
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     h1 {
         font-size: 1.8rem;
         height: 4rem;

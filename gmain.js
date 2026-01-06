@@ -27,13 +27,13 @@ const winner= (win, uchoice, comchoice)=>{
         uscore++;
         users.innerText= uscore;
         console.log("you win");
-        msg.innerText= `you win. computer choose ${comchoice}.`;
+        msg.innerText= `you win.`;
         msg.style.backgroundColor= "green";
     }else{
         cscore++;
         computers.innerText= cscore;
         console.log("computer win");
-        msg.innerText= `you lose. computer choose ${comchoice}.`;
+        msg.innerText= `you lose.`;
         msg.style.backgroundColor= "red";
     }
 };

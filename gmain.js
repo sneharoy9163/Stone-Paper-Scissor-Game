@@ -1,5 +1,5 @@
 alert(
-    "Welcome to gamemania!\n"
+    "Welcome to gamemania!\n" +
     "• Stone breaks Scissor\n" +
     "• Paper cover Stone\n" +
     "• Scissor cut Paper"

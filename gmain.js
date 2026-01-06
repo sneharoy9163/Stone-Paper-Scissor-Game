@@ -1,4 +1,10 @@
-alert("Welcome to gamemania!")
+alert(
+    "Welcome to gamemania!\n"
+    "• Stone breaks Scissor\n" +
+    "• Paper cover Stone\n" +
+    "• Scissor cut Paper"
+);
+
 let uscore=0;
 let cscore=0;
 const c= document.querySelectorAll(".choice");

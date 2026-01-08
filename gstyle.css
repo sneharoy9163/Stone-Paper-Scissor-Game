@@ -4,8 +4,8 @@
     text-align: center;
 }
 h1{
-    background-color: rgba(5, 72, 82, 0.664);
-    color: rgb(182, 185, 176);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
     height: 5rem;
     line-height: 5rem;
 }
@@ -124,5 +124,6 @@ img{
         margin-top: 2rem;
         padding: 0.8rem 1.5rem;
         font-size: 1rem;
+        margin-bottum: 2rem;
     }
 }

@@ -17,16 +17,21 @@ const gamechoice= ()=>{
     const idx= Math.floor(Math.random()*3);
     return option[idx];
 };
-document.addEventListener("DOMContentLoaded", () => {
-    document.querySelector("button").addEventListener("click", () => {
-        document.getElementById("user").textContent = 0;
-        document.getElementById("com").textContent = 0;
-    });
-});
+function clearScore() {
+    uscore = 0;
+    cscore = 0;
+
+    users.innerText = 0;
+    computers.innerText = 0;
+
+    msg.innerText = "New game started!";
+    msg.style.backgroundColor = "rgb(155, 235, 26)";
+}
 const draw= ()=>{
     console.log("draw match");
     msg.innerText= "match draw!";
-    msg.style.backgroundColor= "rgb(155, 235, 26)";
+    msg.style.background= "linear-gradient(135deg, #f7971e, #ffd200)";
+    msg.style.color = "#222";
 };
 const winner= (win, uchoice, comchoice)=>{
     if(win){
@@ -34,13 +39,13 @@ const winner= (win, uchoice, comchoice)=>{
         users.innerText= uscore;
         console.log("you win");
         msg.innerText= `you win.`;
-        msg.style.backgroundColor= "green";
+        msg.style.background= "linear-gradient(135deg, #11998e, #38ef7d)";
     }else{
         cscore++;
         computers.innerText= cscore;
         console.log("computer win");
         msg.innerText= `you lose.`;
-        msg.style.backgroundColor= "red";
+        msg.style.background= "linear-gradient(135deg, #cb2d3e, #ef473a)";
     }
 };
 const play= uchoice =>{

@@ -40,12 +40,14 @@ const winner= (win, uchoice, comchoice)=>{
         console.log("you win");
         msg.innerText= `you win.`;
         msg.style.background= "linear-gradient(135deg, #11998e, #38ef7d)";
+        msg.style.color = "#222";
     }else{
         cscore++;
         computers.innerText= cscore;
         console.log("computer win");
         msg.innerText= `you lose.`;
         msg.style.background= "linear-gradient(135deg, #cb2d3e, #ef473a)";
+        msg.style.color = "#222";
     }
 };
 const play= uchoice =>{
